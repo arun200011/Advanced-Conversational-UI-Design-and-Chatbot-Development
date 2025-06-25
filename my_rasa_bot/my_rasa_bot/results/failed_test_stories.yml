@@ -1,0 +1,6 @@
+version: "3.1"
+stories:
+- story: complaint logging (data\stories.yml)
+  steps:
+  - intent: complain
+  - action: action_log_complaint  # predicted: utter_complain

@@ -1,0 +1,146 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: goodbye
+  examples: |
+    - bye
+    - see you later
+    - goodbye
+
+- intent: track_order
+  examples: |
+    - where is my order?
+    - track order #12345
+    - is my package shipped?
+    - order status please
+
+- intent: complain
+  examples: |
+    - I have a problem with my order
+    - I want to make a complaint
+    - this product is damaged
+    - I'm not happy with the service
+
+- intent: fallback
+  examples: |
+    - ajdkslfj
+    - what is glooping?
+    - huh?
+
+- intent: ask_product
+  examples: |
+    - I want to buy a phone
+    - can you recommend a phone?
+    - I need a new laptop
+    - can you suggest a good laptop?
+    - what laptop should I buy?
+    - show me some shoes
+    - I’m looking for shoes
+    - any good shoes for running?
+    - recommend me something
+    - can you suggest a product?
+    - I need help picking a product
+    - suggest me something to buy
+- intent: complain
+  examples: |
+    - I'm not happy with my order
+    - I want to file a complaint
+    - This item is broken
+    - The delivery was late
+    - I have an issue
+
+- intent: escalate
+  examples: |
+    - I want to speak to a human
+    - Can I talk to someone?
+    - Let me talk to a person
+    - This isn't helping, connect me to an agent

@@ -1,0 +1,14 @@
+{
+  "0": "affirm",
+  "1": "ask_product",
+  "2": "bot_challenge",
+  "3": "complain",
+  "4": "deny",
+  "5": "escalate",
+  "6": "fallback",
+  "7": "goodbye",
+  "8": "greet",
+  "9": "mood_great",
+  "10": "mood_unhappy",
+  "11": "track_order"
+}

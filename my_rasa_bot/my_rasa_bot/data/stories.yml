@@ -1,0 +1,47 @@
+version: "3.1"
+
+stories:
+- story: complaint logging
+  steps:
+    - intent: complain
+    - action: action_log_complaint
+
+- story: escalation handling
+  steps:
+    - intent: escalate
+    - action: action_escalate_to_human
+
+- story: greeting path
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- story: order tracking path
+  steps:
+    - intent: track_order
+    - action: action_track_order
+
+- story: complaint path
+  steps:
+    - intent: complain
+    - action: utter_complain
+
+- story: goodbye path
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: fallback path
+  steps:
+    - intent: fallback
+    - action: utter_fallback
+
+- story: recommend product
+  steps:
+    - intent: ask_product
+    - action: action_recommend_product
+
+- story: product recommendation
+  steps:
+    - intent: ask_product
+    - action: action_recommend_product
